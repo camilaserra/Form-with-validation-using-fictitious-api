@@ -13,8 +13,7 @@ Formulário com credênciais diferentes da API, retorna Error:
 <img src="https://user-images.githubusercontent.com/66450896/139609877-6935ae1c-cc6b-493a-a56f-d9547f2a00ac.JPG" width="900" >
   
 Validado utilizando email da API:
- email: "eve.holt@reqres.in"
- password: "cityslicka" :
+ email: "eve.holt@reqres.in" e password: "cityslicka":
   
 <img src="https://user-images.githubusercontent.com/66450896/139609878-bed79f50-7856-40b0-aa8a-7a5f0974c292.JPG" width="900" >
 
