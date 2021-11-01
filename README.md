@@ -7,7 +7,7 @@
       
    </div>
    
-     <h3>
+<h3>
 
   Projeto utilizando:
 
