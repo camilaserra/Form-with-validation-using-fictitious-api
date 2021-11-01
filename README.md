@@ -2,6 +2,9 @@
 
 <div>
 <div align=center>
+  
+  
+Formulário de Login que contém validação simples com API fictícia,  utilizando regex no Javascript, além feedbacks de loanding, erro e sucesso.
 
 <img src="https://user-images.githubusercontent.com/66450896/139609873-929b4928-4b7b-4522-bafc-cdcab7dcde6e.JPG" width="900" >
 <img src="https://user-images.githubusercontent.com/66450896/139609877-6935ae1c-cc6b-493a-a56f-d9547f2a00ac.JPG" width="900" >
