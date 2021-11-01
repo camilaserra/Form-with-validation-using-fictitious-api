@@ -40,7 +40,7 @@ Validado utilizando email da API:
 <h3 align="center">
 BY💜 <a href="https:https://www.linkedin.com/in/camilaserratecnologia/">Camila Serra</a>
 <br><br>
-
+ 
    
 
 
