@@ -8,24 +8,3 @@
 
 </div>
 
-  <h3>
-
-  Projeto utilizando:
-
-  - HTML
-  - CSS
-  - JavaScript
-  
- 
-    
-  Formulário de Login que contém validação simples com API fictícia,  utilizando regex no Javascript, além feedbacks de loanding, erro e sucesso.
-    
-
-  
-</div>
-
-
-
-<h3 align="center">
-BY💜 <a href="https:https://www.linkedin.com/in/camilaserratecnologia/">Camila Serra</a>
-<br><br>
