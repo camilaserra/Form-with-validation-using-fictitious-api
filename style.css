@@ -1,13 +1,15 @@
 :root {
     --input-linear: linear-gradient(120deg, #5E498C, #F279C8);
     --button-linear: linear-gradient(120deg, #5E498C, #F279C8, #5E498C);
+    --button-success: linear-gradient(120deg, #3ebb28, #7eb17e, #3ebb28);
+    --input-error: red;
+    --input-disable: #9fa39e;
     --white: #fff;
     --input-border:#f8a6ed;
     --login-title: #303030;
     --login-reset:#5E498C;
     --border-height: 1px;
 }
-
 
 body {
     margin: 0;
@@ -17,13 +19,14 @@ body {
 
 .login {
     height: 100vh;
-    background: var(--input-linear);
+    background-image: url(img/wp4344510.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
-
 
 .login__container {
     min-height: 400px;
@@ -38,43 +41,6 @@ body {
     z-index: 999;   
 }
 
-.waves {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.wave-1 {
-    animation: moveWaves-1 3s ease-in-out infinite alternate;
-}
-
-.wave-2 {
-    animation: moveWaves-2 1.2s ease-in-out infinite alternate;
-}
-
-.wave-3 {
-    animation: moveWaves-3 0.7s ease-in-out infinite alternate;
-} 
-
-/* KEY FRAMES - WAVES */
-    @keyframes moveWaves-1{
-    from {
-        transform: translateX(600px);
-    }
-}
-
-@keyframes moveWaves-2{
-    from {
-        transform: translateX(400px);
-    }
-}
-
-@keyframes moveWaves-3{
-    from {
-        transform: translateX(200px);
-    }
-}
 
 
 .login__title {
@@ -108,6 +74,14 @@ body {
     transition: 0.3s ease-in-out;
 }
 
+.login__input-border.error {
+    background: var(--input-error);
+}
+
+.login__input-border.error::after {
+    background: var(--input-error);
+}
+
 .login__input-border::after {
     content: '';
     display: block;
@@ -137,8 +111,22 @@ body {
     transition: 0.5s ease-in-out;
     border: unset;
 }
+
+.login__submit:disabled {
+    background: var(--input-disable);
+    cursor: not-allowed;
+}
+
 .login__submit:hover {
     background-position: right;
+}
+
+.login__submit.error {
+    background: var(--input-error);
+}
+
+.login__submit.success {
+    background: var(--button-success);
 }
 
 .login__reset {
