@@ -29,7 +29,7 @@ Validado utilizando email da API:
   
  
     
-  Formulário de Login que contém validação simples com API fictícia,  utilizando regex no Javascript, além feedbacks de loanding, erro e sucesso.
+  Formulário de Login que contém validação simples com API fictícia,  utilizando regex no Javascript, além feedbacks de loanding, error e sucesso.
     
 
   
