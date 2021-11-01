@@ -17,11 +17,11 @@
   - CSS
   - JavaScript
   
-  <div align=cente>
+ 
     
-    Formulário de Login que contém validação simples com API fictícia,  utilizando regex no Javascript, além feedbacks de loanding, erro e sucesso.
+  Formulário de Login que contém validação simples com API fictícia,  utilizando regex no Javascript, além feedbacks de loanding, erro e sucesso.
     
-  </div>
+
   
 </div>
 
