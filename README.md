@@ -1,12 +1,12 @@
 # Form with validation using fictitious api
 
 <div>
-   <div align=center>
+<div align=center>
 
-    <img src="https://drive.google.com/file/d/1BJUKkmwkjzTN8FnwyOHfN2V-BKev4VZF/view?usp=sharing" >
-      
-   </div>
-   
+<img src="https://drive.google.com/file/d/1BJUKkmwkjzTN8FnwyOHfN2V-BKev4VZF/view?usp=sharing" >
+
+</div>
+
 <h3>
 
   Projeto utilizando:
